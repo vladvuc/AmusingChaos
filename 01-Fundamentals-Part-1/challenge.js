@@ -20,6 +20,4 @@ if (BMIMark > BMIJohn) {
 
 console.log(markHigherBMI)
 
-// We can also do it like this 
 console.log(BMIMark, BMIJohn, markHigherBMI)
-
