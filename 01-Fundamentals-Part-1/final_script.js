@@ -31,3 +31,27 @@ console.log(x, y);
 const averageAge = (ageJonas + ageSarah) / 2
 console.log('Jonas ', ageJonas, 'Sarah ', ageSarah);
 console.log(averageAge)
+
+// Template String and Strings in General
+
+const firstName = 'Vlad';
+const job = 'student of AI';
+const birthYear = 1990;
+const currentYear = 2023;
+
+const vlad = "I'm " + firstName + ', a ' + (currentYear - birthYear) + ' years old ' + job + '!';
+
+console.log(vlad)
+
+const vladNew = `I'm ${firstName}, a ${currentYear - birthYear} year old ${job}!`;
+console.log(vladNew)
+
+console.log(`This is just a regular string... It is much easier because you don't need to use the quotes or single quoatitions.`)
+
+// Multiline string
+
+console.log(`This is a string
+And this is a new line of a string.
+And this is a new new line of a string, so we
+can write paragraphs like this without thinking
+too much about like \n or some other bulshit.`)

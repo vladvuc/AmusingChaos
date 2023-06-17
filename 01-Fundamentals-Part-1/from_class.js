@@ -1,17 +1,12 @@
-const firstName = 'Vlad';
-const job = 'student of AI';
-const birthYear = 1990;
-const currentYear = 2023;
+// const age = 15;
 
-const vlad = "I'm " + firstName + ', a ' + (currentYear - birthYear) + ' years old ' + job + '!';
+// if (age >= 18) {
+//     console.log('The person can start driving lessons 🚗 ');
+// } else {
+//     const yearsLeft = 18 - age;
+//     console.log(`This person is too young ⛔️. Wait another ${yearsLeft} years.`);
+// }
 
-console.log(vlad)
+// Conditonal variable
+const birthYear = 1991;
 
-const vladNew = `I'm ${firstName}, a ${currentYear - birthYear} year old ${job}!`;
-console.log(vladNew)
-
-console.log(`This is just a regular string... It is much easier because you don't need to use the quotes or single quoatitions.`)
-
-// Multiline string
-
-console.log()
