@@ -1,14 +1,24 @@
-// TYPE CONVERSION
-const inputYear = '1991';
-console.log(Number(inputYear), inputYear)
-console.log(Number(inputYear) + 18);
-console.log(Number('Jonas'));
-console.log(typeof NaN);
+const hasDriversLivence = true; // Varibable A
+const hasGoodVision = true; // Variable B
 
-console.log(String(23), 23);
+console.log(hasDriversLivence && hasGoodVision);
+console.log(hasDriversLivence || hasGoodVision);
+console.log(!hasDriversLivence);
 
-// type coercion
-console.log('I am ' + 23 + ' years old');
-console.log('I am ' + String(23) + ' years old');
+const shouldDrive = hasDriversLivence && hasGoodVision;
 
-console.log('23' - '10' - '3')
+if (shouldDrive) {
+    console.log("She should be able to drive.")
+} else {
+    console.log("Someone else should drive.")
+}
+
+const isTired = true; // C
+
+console.log(hasDriversLivence && hasGoodVision && !isTired);
+
+if (shouldDrive && !isTired) {
+    console.log("She is able to drive.")
+} else {
+    console.log('Someone else should drive.')
+}

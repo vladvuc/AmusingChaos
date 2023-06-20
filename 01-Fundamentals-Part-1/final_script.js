@@ -125,3 +125,63 @@
 // console.log('I am ' + String(23) + ' years old');
 
 // console.log('23' - '10' - '3')
+
+// // TYPE CONVERSION
+// const inputYear = '1991';
+// console.log(Number(inputYear), inputYear)
+// console.log(Number(inputYear) + 18);
+// console.log(Number('Jonas'));
+// console.log(typeof NaN);
+
+// console.log(String(23), 23);
+
+// // type coercion
+// console.log('I am ' + 23 + ' years old');
+// console.log('I am ' + String(23) + ' years old');
+
+// console.log('23' - '10' - '3')
+
+// // Boolean values, true and false
+// // there is only 6 false values in javaScript: 0, undefined, '', false, null, NaN
+
+// console.log(Boolean(0));
+// console.log(Boolean('t'));
+// console.log(Boolean(false));
+// console.log('Test', !Boolean(false));
+
+// const age = 17;
+
+// if (age === 18) {
+//     console.log('The person is adult!')
+// }
+
+// const favorite_num = Number(prompt("What's your favorite number?"));
+
+// console.log(favorite_num, typeof favorite_num);
+
+// // BOOLEAN LOGIC
+// const hasDriversLivence = true; // Varibable A
+// const hasGoodVision = true; // Variable B
+
+// console.log(hasDriversLivence && hasGoodVision);
+// console.log(hasDriversLivence || hasGoodVision);
+// console.log(!hasDriversLivence);
+
+// const shouldDrive = hasDriversLivence && hasGoodVision;
+
+// if (shouldDrive) {
+//     console.log("She should be able to drive.")
+// } else {
+//     console.log("Someone else should drive.")
+// }
+
+// const isTired = true; // C
+
+// console.log(hasDriversLivence && hasGoodVision && !isTired);
+
+// if (shouldDrive && !isTired) {
+//     console.log("She is able to drive.")
+// } else {
+//     console.log('Someone else should drive.')
+// }
+
